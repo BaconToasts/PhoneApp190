@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var status: String = ""
     var body: some View {
         VStack {
             // Text displaying our current path
@@ -20,35 +21,37 @@ struct ContentView: View {
                 .padding(.top, -250)
             
             // Text displaying the current status of our app with normal meaning unlocked
-            Text("Status: Normal")
+            TextField("Status: Normal", text: $status)
+                .multilineTextAlignment(.center)
                 .font(.title)
-                .padding(.bottom, 50)
+                .foregroundColor(.black)
+                
             
             // Had to use HStack to align buttons horizontally
             HStack {
                 VStack {
                     // Clicking on this button locks all apps from a student's phone
-                    Button {
-                        print("All Apps Locked")
-                    } label: {
+                    Button(action: {
+                        status = "Status: Locked"
+                    }, label: {
                         Image(systemName: "lock")
                             .padding(.trailing)
                             .font(.system(size: 100))
                             .foregroundColor(.red)
-                    }
+                    })
                     Text("Lock")
                         .padding(.trailing)
                 }
                 VStack {
                     // Clicking on this button unlocks all apps from a student's phone
-                    Button {
-                        print("All Apps Unlocked")
-                    } label: {
+                    Button(action: {
+                        status = "Status: Unlocked"
+                    }, label: {
                         Image(systemName: "lock.open")
                             .padding(.leading)
                             .font(.system(size: 100))
                             .foregroundColor(.green)
-                    }
+                    })
                     Text("Unlock")
                 }
             }
