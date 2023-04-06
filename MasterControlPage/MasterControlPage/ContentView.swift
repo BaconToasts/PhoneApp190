@@ -17,32 +17,41 @@ struct ContentView: View {
                 .background(.black)
                 .foregroundColor(.white)
                 .cornerRadius(15)
-                .padding(.bottom, 400)
+                .padding(.top, -250)
             
             // Text displaying the current status of our app with normal meaning unlocked
-            Text("Status: ")
+            Text("Status: Normal")
                 .font(.title)
-                .padding(.top, -350)
+                .padding(.bottom, 50)
             
-            // Clicking on this button locks all apps from a student's phone
-            Button {
-                print("All Apps Locked")
-            } label: {
-                Image(systemName: "lock")
-                    .font(.system(size: 100))
-                    .foregroundColor(.red)
+            // Had to use HStack to align buttons horizontally
+            HStack {
+                VStack {
+                    // Clicking on this button locks all apps from a student's phone
+                    Button {
+                        print("All Apps Locked")
+                    } label: {
+                        Image(systemName: "lock")
+                            .padding(.trailing)
+                            .font(.system(size: 100))
+                            .foregroundColor(.red)
+                    }
+                    Text("Lock")
+                        .padding(.trailing)
+                }
+                VStack {
+                    // Clicking on this button unlocks all apps from a student's phone
+                    Button {
+                        print("All Apps Unlocked")
+                    } label: {
+                        Image(systemName: "lock.open")
+                            .padding(.leading)
+                            .font(.system(size: 100))
+                            .foregroundColor(.green)
+                    }
+                    Text("Unlock")
+                }
             }
-            Text("Lock")
-            
-            // Clicking on this button unlocks all apps from a student's phone
-            Button {
-                print("All Apps Unlocked")
-            } label: {
-                Image(systemName: "lock.open")
-                    .font(.system(size: 100))
-                    .foregroundColor(.green)
-            }
-            Text("Unlock")
         }
     }
 }
