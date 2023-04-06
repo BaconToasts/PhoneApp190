@@ -9,6 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var generatedCode: String = ""
+    var charList = ["1","2","3","4","5","6","7","8","9","0",
+                    "a","b","c","d","e","f","g","h","i","j",
+                    "k","l","m","n","o","p","q","r","s","t",
+                    "u","v","w","x","y","z"]
     
     var body: some View {
         VStack{
@@ -23,15 +27,20 @@ struct ContentView: View {
                 .padding(.top, 25)
             
             TextField(
-                "Generated Code goes here",
+                "Press the button to generate a code",
                 text: $generatedCode
             )
+                .multilineTextAlignment(.center)
                 .textFieldStyle(.roundedBorder)
                 .disabled(true)
                 .padding(25)
             
             Button(action: {
-                print("Code Generated")
+                generatedCode = ""
+                for _ in 0..<6{
+                    let randomNum = Int.random(in: 0..<36)
+                    generatedCode += charList[randomNum]
+                }
             }) {
                 Text("Generate New Code")
                     .padding()
