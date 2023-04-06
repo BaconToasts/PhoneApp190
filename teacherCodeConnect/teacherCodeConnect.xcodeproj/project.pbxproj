@@ -11,6 +11,7 @@
 		00081D1129DD50EF0064275A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00081D1029DD50EF0064275A /* ContentView.swift */; };
 		00081D1329DD50F10064275A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00081D1229DD50F10064275A /* Assets.xcassets */; };
 		00081D1629DD50F10064275A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00081D1529DD50F10064275A /* Preview Assets.xcassets */; };
+		CED4CCF729DE4872004DCDB0 /* MainTeacherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4CCF629DE4872004DCDB0 /* MainTeacherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		00081D1029DD50EF0064275A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00081D1229DD50F10064275A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00081D1529DD50F10064275A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED4CCF629DE4872004DCDB0 /* MainTeacherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTeacherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				00081D0E29DD50EF0064275A /* teacherCodeConnectApp.swift */,
 				00081D1029DD50EF0064275A /* ContentView.swift */,
+				CED4CCF629DE4872004DCDB0 /* MainTeacherView.swift */,
 				00081D1229DD50F10064275A /* Assets.xcassets */,
 				00081D1429DD50F10064275A /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				00081D1129DD50EF0064275A /* ContentView.swift in Sources */,
 				00081D0F29DD50EF0064275A /* teacherCodeConnectApp.swift in Sources */,
+				CED4CCF729DE4872004DCDB0 /* MainTeacherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
