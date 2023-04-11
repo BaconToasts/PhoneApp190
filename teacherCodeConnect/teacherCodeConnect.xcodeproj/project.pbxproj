@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream:teacherCodeConnect/teacherCodeConnect.xcodeproj/project.pbxproj
 		00081D0F29DD50EF0064275A /* teacherCodeConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00081D0E29DD50EF0064275A /* teacherCodeConnectApp.swift */; };
 		00081D1129DD50EF0064275A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00081D1029DD50EF0064275A /* ContentView.swift */; };
 		00081D1329DD50F10064275A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00081D1229DD50F10064275A /* Assets.xcassets */; };
@@ -19,6 +20,33 @@
 		00081D1029DD50EF0064275A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00081D1229DD50F10064275A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00081D1529DD50F10064275A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+=======
+		313FFED329E48B3500747079 /* TeacherMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313FFED229E48B3500747079 /* TeacherMainView.swift */; };
+		3197735C29E497D300596D4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197735B29E497D300596D4C /* ContentView.swift */; };
+		3197736029E4A38B00596D4C /* TeacherConnectCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197735F29E4A38B00596D4C /* TeacherConnectCodeView.swift */; };
+		3197736229E4A66500596D4C /* TeacherMasterControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197736129E4A66500596D4C /* TeacherMasterControlView.swift */; };
+		3197736529E4B4B700596D4C /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3197736429E4B4B700596D4C /* KeychainSwift */; };
+		3197736729E4C72300596D4C /* StudentMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197736629E4C72300596D4C /* StudentMainView.swift */; };
+		31A3095129E4715B00FF3D73 /* Project190App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A3095029E4715B00FF3D73 /* Project190App.swift */; };
+		31A3095529E4715D00FF3D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A3095429E4715D00FF3D73 /* Assets.xcassets */; };
+		31A3095829E4715D00FF3D73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A3095729E4715D00FF3D73 /* Preview Assets.xcassets */; };
+		31A3096129E4725A00FF3D73 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A3096029E4725A00FF3D73 /* LoginView.swift */; };
+		31A3096329E4726800FF3D73 /* EULAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A3096229E4726800FF3D73 /* EULAView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		313FFED229E48B3500747079 /* TeacherMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherMainView.swift; sourceTree = "<group>"; };
+		3197735B29E497D300596D4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3197735F29E4A38B00596D4C /* TeacherConnectCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherConnectCodeView.swift; sourceTree = "<group>"; };
+		3197736129E4A66500596D4C /* TeacherMasterControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherMasterControlView.swift; sourceTree = "<group>"; };
+		3197736629E4C72300596D4C /* StudentMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentMainView.swift; sourceTree = "<group>"; };
+		31A3094D29E4715B00FF3D73 /* Project190.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project190.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A3095029E4715B00FF3D73 /* Project190App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project190App.swift; sourceTree = "<group>"; };
+		31A3095429E4715D00FF3D73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31A3095729E4715D00FF3D73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31A3096029E4725A00FF3D73 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		31A3096229E4726800FF3D73 /* EULAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EULAView.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes:Project190.xcodeproj/project.pbxproj
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3197736529E4B4B700596D4C /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +80,23 @@
 		00081D0D29DD50EF0064275A /* teacherCodeConnect */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream:teacherCodeConnect/teacherCodeConnect.xcodeproj/project.pbxproj
 				00081D0E29DD50EF0064275A /* teacherCodeConnectApp.swift */,
 				00081D1029DD50EF0064275A /* ContentView.swift */,
 				00081D1229DD50F10064275A /* Assets.xcassets */,
 				00081D1429DD50F10064275A /* Preview Content */,
+=======
+				31A3095029E4715B00FF3D73 /* Project190App.swift */,
+				31A3096229E4726800FF3D73 /* EULAView.swift */,
+				313FFED229E48B3500747079 /* TeacherMainView.swift */,
+				3197735B29E497D300596D4C /* ContentView.swift */,
+				3197735F29E4A38B00596D4C /* TeacherConnectCodeView.swift */,
+				3197736129E4A66500596D4C /* TeacherMasterControlView.swift */,
+				31A3096029E4725A00FF3D73 /* LoginView.swift */,
+				3197736629E4C72300596D4C /* StudentMainView.swift */,
+				31A3095429E4715D00FF3D73 /* Assets.xcassets */,
+				31A3095629E4715D00FF3D73 /* Preview Content */,
+>>>>>>> Stashed changes:Project190.xcodeproj/project.pbxproj
 			);
 			path = teacherCodeConnect;
 			sourceTree = "<group>";
@@ -82,9 +124,18 @@
 			);
 			dependencies = (
 			);
+<<<<<<< Updated upstream:teacherCodeConnect/teacherCodeConnect.xcodeproj/project.pbxproj
 			name = teacherCodeConnect;
 			productName = teacherCodeConnect;
 			productReference = 00081D0B29DD50EF0064275A /* teacherCodeConnect.app */;
+=======
+			name = Project190;
+			packageProductDependencies = (
+				3197736429E4B4B700596D4C /* KeychainSwift */,
+			);
+			productName = Project190;
+			productReference = 31A3094D29E4715B00FF3D73 /* Project190.app */;
+>>>>>>> Stashed changes:Project190.xcodeproj/project.pbxproj
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,8 +161,16 @@
 				en,
 				Base,
 			);
+<<<<<<< Updated upstream:teacherCodeConnect/teacherCodeConnect.xcodeproj/project.pbxproj
 			mainGroup = 00081D0229DD50EF0064275A;
 			productRefGroup = 00081D0C29DD50EF0064275A /* Products */;
+=======
+			mainGroup = 31A3094429E4715B00FF3D73;
+			packageReferences = (
+				3197736329E4B4B700596D4C /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
+			productRefGroup = 31A3094E29E4715B00FF3D73 /* Products */;
+>>>>>>> Stashed changes:Project190.xcodeproj/project.pbxproj
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -137,8 +196,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream:teacherCodeConnect/teacherCodeConnect.xcodeproj/project.pbxproj
 				00081D1129DD50EF0064275A /* ContentView.swift in Sources */,
 				00081D0F29DD50EF0064275A /* teacherCodeConnectApp.swift in Sources */,
+=======
+				313FFED329E48B3500747079 /* TeacherMainView.swift in Sources */,
+				3197735C29E497D300596D4C /* ContentView.swift in Sources */,
+				31A3095129E4715B00FF3D73 /* Project190App.swift in Sources */,
+				3197736229E4A66500596D4C /* TeacherMasterControlView.swift in Sources */,
+				31A3096129E4725A00FF3D73 /* LoginView.swift in Sources */,
+				31A3096329E4726800FF3D73 /* EULAView.swift in Sources */,
+				3197736029E4A38B00596D4C /* TeacherConnectCodeView.swift in Sources */,
+				3197736729E4C72300596D4C /* StudentMainView.swift in Sources */,
+>>>>>>> Stashed changes:Project190.xcodeproj/project.pbxproj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +407,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3197736329E4B4B700596D4C /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 20.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3197736429E4B4B700596D4C /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3197736329E4B4B700596D4C /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 00081D0329DD50EF0064275A /* Project object */;
 }
